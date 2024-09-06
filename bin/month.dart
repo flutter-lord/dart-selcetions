@@ -1,6 +1,4 @@
 
-
-import 'dart:io';
 import 'dart:math';
 
 void main() {
@@ -32,7 +30,6 @@ void main() {
     break;
     case 12: print('December');
     break;
-    defaut: print('kkldd');
  
 
 
