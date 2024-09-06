@@ -1,5 +1,4 @@
-
-import 'dart:math';
+import "dart:math";
 
 void main() {
 
@@ -30,10 +29,6 @@ void main() {
     break;
     case 12: print('December');
     break;
- 
-
-
-
   }
 
   // if (random == 1) {
@@ -72,5 +67,4 @@ void main() {
   // else {
   //   print('December');
   // }
-
 }
