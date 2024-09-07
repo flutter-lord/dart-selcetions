@@ -28,9 +28,9 @@ void main() {
   else if ((r1 == n1 && n1 != n2 && n1 != n3) && (r1 == n2 && n2 != n1 && n2 != n3) && (r1 == n3 && n3 != n2 && n3 != n1) ||
             (r2 == n1 && n1 != n2 && n1 != n3) && (r2 == n2 && n2 != n1 && n2 != n3) && (r2 == n3 && n3 != n2 && n3 != n1) ||
             (r3 == n1 && n1 != n2 && n1 != n3) && (r3 == n2 && n2 != n1 && n2 != n3) && (r3 == n3 && n3 != n2 && n3 != n1)) {
-               print('Congratulations You\'ve won \$1,000');
+             print('Congratulations You\'ve won \$1,000');
   }
-  else {
+  else { 
     print('Dear Gambler,No match today You lose Try again later');
   }
 }
