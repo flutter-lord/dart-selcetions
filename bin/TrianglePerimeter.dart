@@ -13,32 +13,13 @@ void main() {
   int c = int.parse(stdin.readLineSync()!);
 
   int perimeter = a + b + c;
-  
-  if ((a + b == c) || (a + c == b) || (b + c == a)) {
-    print('Does not follow the rule');
-  }
-  else if (a + b > c) {
+
+  if ((a + b > c) && (a + c > b) && (b + c > a)) {
     print('The input is valid');
-    print('The perimeter  of the triangle is $perimeter');
+    print('The perimeter of the triangle is $perimeter');
   }
-  else if (a + b < c) {
-    print('The input is invalid');
-  }
-  else if (a + c > b) {
-    print('The input is valid');
-    print('The perimeter  of the triangle is $perimeter');
-  }
-  else if (a + c < b) {
-    print('The input is invalid');
-  }
-   else if (b + c > a) {
-    print('The input is valid');
-    print('The perimeter  of the triangle is $perimeter');
-  }
-  else if (b + c < a) {
-    print('The input is invalid');
-  }
+
   else {
-    print('Not recognized');
+     print('The input is invalid');
 }
 }
